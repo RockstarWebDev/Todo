@@ -1,0 +1,33 @@
+{
+  "todos":[ 
+    {
+    "id": 1,
+    "title": "Finish homework",
+    "description": "Complete math and science assignments",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Go grocery shopping",
+    "description": "Buy milk, eggs, and bread",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Walk the dog",
+    "description": "Take Max for a 30-minute walk",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "title": "Read a book",
+    "description": "Spend 1 hour reading a novel",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "title": "Call mom",
+    "description": "Check in and have a chat",
+    "completed": true
+  }] 
+  }

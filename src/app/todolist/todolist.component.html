@@ -1,0 +1,12 @@
+<p>todolist works!</p>
+
+<ul class="todo-list">
+    <li *ngFor="let todo of todos" class="todo-item">
+      <div class="title">{{ todo.title }}</div>
+      <!-- <div class="status">{{ todo.completed ? 'Completed' : 'Incomplete' }}</div> -->
+      <div class="actions">
+        <!-- <button (click)="toggleStatus(todo)">Toggle</button>
+        <button (click)="deleteTodo(todo)">Delete</button> -->
+      </div>
+    </li>
+  </ul>
