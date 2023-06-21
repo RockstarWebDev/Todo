@@ -1,0 +1,34 @@
+/* todo-list.component.css */
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-item .title {
+    flex-grow: 1;
+  }
+  
+  .todo-item .status {
+    margin-left: 10px;
+  }
+  
+  .todo-item .actions {
+    margin-left: 10px;
+  }
+  
+  .todo-item .actions button {
+    margin-left: 5px;
+  }
+  
